@@ -1,0 +1,25 @@
+# Entornos Virtuales de Python
+.venv/
+venv/
+ENV/
+env/
+python/
+
+# Cache de compilacion de Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit (archivos locales y cache)
+.streamlit/
+pages_cache/
+
+# Archivos de configuracion del sistema y de IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Carpetas del agente local Antigravity
+.antigravitycli/
